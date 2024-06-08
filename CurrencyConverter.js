@@ -1,11 +1,3 @@
-// Welcome to the Currency Converter!
-// We have imported the 'sync-input' package for you.
-// You will use this in later stages.
-// This package allows you to get user input.
-// Like so:
-// let name = input("Type your name: ");
-// let age = Number(input("Type your age: "));
-
 const input = require("sync-input");
 
 // Introducing user to the program and what it can do
@@ -129,5 +121,3 @@ function convertCurrency(initalCurrency, finalCurrency) {
 		`Result: ${amount} ${fromCurrency} equals ${convertedAmount.toFixed(4)} ${toCurrency}`,
 	);
 }
-
-
